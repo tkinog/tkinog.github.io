@@ -1,0 +1,177 @@
+
+/*Global
+--------------------*/
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  } 
+
+img {
+    width: 150px;
+    animation-duration: 5s;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    color: rgb(68, 65, 42);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    
+    font-weight: normal;
+    margin: 0;
+}
+
+h1 {
+    line-height: 1;
+    font-size: 60px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+/*Profile
+--------------------*/
+
+body {
+    color: blue;
+}
+
+header {
+    background: #e0b0d5;
+     
+}
+
+/*Projects
+--------------------*/
+.projects {
+    background: #E5D0E3
+}
+
+.projects .container-wrap {
+    color: red;
+}
+
+.projects .btn {
+    color: rgb(255, 255, 255);
+    background: royalblue;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.project-item {
+    overflow: hidden;
+    /* border-bottom: 3px dashed #7BE0AD; */
+    padding: 25px 0;
+}
+
+.tom {
+    /* overflow: hidden; */
+    border-bottom: 3px dashed #7BE0AD;
+    /* padding: 25px 0; */
+}
+
+.project-item h3 {
+    margin: 0;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.btn:hover {
+    color: red;
+    background: darkblue;
+}
+
+.work-experience {
+    background: #E7E5E5;
+}
+
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;   
+    column-gap: 20px; 
+}
+
+.example {
+    color: red;
+}
+
+.education {  
+    background: #AEE5D8;
+}
+
+.education .container-wrap {
+    color: black;
+}
+
+footer {
+    background: #7BE0AD;
+}
+ 
+a {
+    color: gray;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+background: rgba(47, 48, 97, 30%);
+}
+
+.container {
+    display: flex;
+    width: 600px;
+}
+
+.flex-item {
+    flex: 1 1 100px;
+}
+
+footer {
+    text-align: center;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+}
+
+
+/* E1D89F
+CD8B76
+C45BAA
+7D387D
+27474E*/
