@@ -627,12 +627,12 @@ img {
 /* Next & previous buttons */
 .prev,
 .next {
-  cursor: pointer;
+cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
-  margin-top: -22px;
+  padding:80px 20px;
+  margin-top: -90px;
   color: white;
   font-weight: bold;
   font-size: 18px;
