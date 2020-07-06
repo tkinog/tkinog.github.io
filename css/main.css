@@ -762,6 +762,14 @@ cursor: pointer;
 }
 
 /*Stying for small screens*/
+@media screen and (max-width: 1024px){
+  .prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+
 @media screen and (max-width: 834px){
   .mobile {
     display: flex;
