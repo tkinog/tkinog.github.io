@@ -522,10 +522,12 @@ button:hover {
   font-size: 20px;
   margin-bottom: 40px;
   line-height: 1.5;
+  text-align: center;
 }
 
 .material-menu .item{
-  list-style-type: disc;
+    list-style-type: none;
+  text-align: center;
 }
 
 .material-menu .item:hover {
