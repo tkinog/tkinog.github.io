@@ -381,6 +381,11 @@ button:hover {
   transform: translateY(-100%);
 }
 
+.card__face--back section.bright{
+  color: #000000;
+  text-shadow: none;
+}
+
 .front1 {
   background-image: url(/images/ppl-cover.jpg);
   background-size: cover;
