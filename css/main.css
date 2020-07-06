@@ -513,7 +513,7 @@ button:hover {
   width: 30%;
   margin: 0 5px 50px;
   padding: 20px;
-  background-color: #bfe6f0;
+  background-color: #e0f8fd;
   box-shadow: 0 0 2px black;
   height: 350px;
 }
@@ -538,7 +538,7 @@ button:hover {
   color: #3863b9;
   padding: 8px;
   /* margin: 2px; */
-  border: 1px solid #bfe6f0;
+  border: 1px solid #e0f8fd;
 }
 
 .material-menu a:hover{
