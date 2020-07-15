@@ -808,7 +808,9 @@ cursor: pointer;
       z-index: 2;
       transition: all 0.7s ease;
   }
-
+  .nav-links li .link:not(.active)::before {
+    content: unset;
+  }
 /* .hamburger .line1,
 .hamburger .line2,
 .hamburger .line3 {
