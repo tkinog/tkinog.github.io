@@ -767,6 +767,33 @@ cursor: pointer;
   margin-bottom: 2vh;
 }
 
+#fs-frm-inputs {
+  border: none;
+}
+
+input[type=text],input[type=email] , select, textarea {
+  display: block;
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 6px auto 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4c82af;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #455da0;
+}
+
 /*Stying for small screens*/
 @media screen and (max-width: 1024px){
   .prev:hover,
