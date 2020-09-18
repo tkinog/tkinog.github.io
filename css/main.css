@@ -375,16 +375,16 @@ button:hover {
 .card__face--back section {
   color: #ffffff;
   position: relative;
-  text-shadow: 0 0 1px black;;
+  text-shadow: 1px 1px 1px black;;
   font-size: 16px;
   top: 100%;
   transform: translateY(-100%);
 }
 
-.card__face--back section.bright{
+/* .card__face--back section.bright{
   color: #000000;
   text-shadow: none;
-}
+} */
 
 .front1 {
   background-image: url(/images/ppl-cover.jpg);
