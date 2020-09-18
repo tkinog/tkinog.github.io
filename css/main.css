@@ -151,7 +151,7 @@ nav {
   background: url(/images/hero-bur.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: 20% 30%;
   background-attachment: fixed;
   filter: brightness(60%);
 }
