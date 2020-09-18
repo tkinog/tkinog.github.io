@@ -538,6 +538,7 @@ button:hover {
 .material-menu .item{
     list-style-type: none;
   text-align: center;
+  font-size: 14px;
 }
 
 .material-menu .item:hover {
