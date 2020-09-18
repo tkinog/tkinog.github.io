@@ -195,6 +195,7 @@ nav {
   font-size: 1.125rem;
   font-weight: 200;
   cursor: pointer;
+  opacity: 100%;
 }
 .hero-button:hover {
   background-color: #5d4267;
