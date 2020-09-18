@@ -288,21 +288,25 @@ button {
 color: #fff ;
 text-transform: uppercase;
 text-decoration: none;
-background: #4077be;
+background: #5b85bb;
 padding: 10px;
 margin: 10px 0;
 border-radius: 5px;
 display: inline-block;
 border: none;
 transition: all 0.4s ease 0s;
+opacity: 65%;
 }
 
 button:hover {
-  background: #434343;
-  letter-spacing: 2px;
+  background: #165bb4;
+  /* letter-spacing: 2px; */
+  margin-top: 14px;
+  margin-bottom: 6px;
   box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
   transition: all 0.4s ease 0s;
   cursor: pointer;
+  opacity: 100%;
 }
 
 /* ----------------------------------------------------------------- */
