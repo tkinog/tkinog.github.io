@@ -295,7 +295,7 @@ border-radius: 5px;
 display: inline-block;
 border: none;
 transition: all 0.4s ease 0s;
-opacity: 65%;
+opacity: 50%;
 }
 
 button:hover {

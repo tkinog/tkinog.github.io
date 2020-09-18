@@ -173,21 +173,61 @@
         var card6 = document.querySelector('.card6');
         card.addEventListener('click', function () {
             card.classList.toggle('is-flipped');
+            if (card2.classList.contains('is-flipped')) {
+                card2.classList.toggle('is-flipped'); 
+            } 
+            if (card3.classList.contains('is-flipped')) {
+                card3.classList.toggle('is-flipped');
+            }
+            if (card4.classList.contains('is-flipped')) {
+                card4.classList.toggle('is-flipped'); 
+            }
+            if (card5.classList.contains('is-flipped')) {
+                card5.classList.toggle('is-flipped'); 
+            }
+            if (card6.classList.contains('is-flipped')) {
+                card6.classList.toggle('is-flipped'); 
+            }
         });
         card2.addEventListener('click', function () {
             card2.classList.toggle('is-flipped');
+            card.classList.remove('is-flipped');
+            card3.classList.remove('is-flipped');
+            card4.classList.remove('is-flipped');
+            card5.classList.remove('is-flipped');
+            card6.classList.remove('is-flipped');
         });
         card3.addEventListener('click', function () {
             card3.classList.toggle('is-flipped');
+            card.classList.remove('is-flipped');
+            card2.classList.remove('is-flipped');
+            card4.classList.remove('is-flipped');
+            card5.classList.remove('is-flipped');
+            card6.classList.remove('is-flipped');
         });
         card4.addEventListener('click', function () {
             card4.classList.toggle('is-flipped');
+            card.classList.remove('is-flipped');
+            card2.classList.remove('is-flipped');
+            card3.classList.remove('is-flipped');
+            card5.classList.remove('is-flipped');
+            card6.classList.remove('is-flipped');
         });
         card5.addEventListener('click', function () {
             card5.classList.toggle('is-flipped');
+            card.classList.remove('is-flipped');
+            card2.classList.remove('is-flipped');
+            card3.classList.remove('is-flipped');
+            card4.classList.remove('is-flipped');
+            card6.classList.remove('is-flipped');
         });
         card6.addEventListener('click', function () {
             card6.classList.toggle('is-flipped');
+            card.classList.remove('is-flipped');
+            card2.classList.remove('is-flipped');
+            card3.classList.remove('is-flipped');
+            card4.classList.remove('is-flipped');
+            card5.classList.remove('is-flipped');
         });
     </script>
 </body>
