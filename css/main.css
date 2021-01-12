@@ -94,7 +94,7 @@ nav {
 .nav-links li {
   position: relative;
 }
-
+/*
 .nav-links li .link:not(.active)::before 
  {
   content: "";
@@ -103,10 +103,9 @@ nav {
   width: 0%;
   background-color: #3863b9;
   position: absolute;
-  /* border-bottom: 5px solid red ; */
   transition: all ease-in 250ms;
   margin: 1ch 0 0 10%;
-}
+}*/
 
 .nav-links li .link:hover::before{
   width: 80%;
